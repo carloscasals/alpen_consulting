@@ -18,6 +18,7 @@ app = Dash(
         __name__,
         title="Alpen Consulting",
         suppress_callback_exceptions=True,
+        use_pages=True,
         # assets_folder="../assets/",
         # external_stylesheets=["/assets/css/base_layout.css", "/assets/css/default_cards.css"],
         external_stylesheets=dmc.styles.ALL

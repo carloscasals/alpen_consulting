@@ -1,33 +1,37 @@
-from dash import html, dcc
+import dash
+from dash import html
 import dash_mantine_components as dmc
-from datetime import datetime, timedelta, date
-from dash_iconify import DashIconify
 
 
-contruction_icon = DashIconify(icon="lucide:construction", style={"marginRight": 5})
-
-
-def create_layout() -> dmc.MantineProvider:
-    return dmc.MantineProvider(
-        [
-            dmc.Container(
-                size='xl',
-                style={"height": "100vh"},  # Set full height of the viewport
-                children=[
-                    dmc.Center(style={"height": "100%", "width": "100%"},
-                        children=[
-                            dmc.Stack([
-                                dmc.Image(
+def create_layout():
+    return dmc.MantineProvider([
+        # Manual header using Group, Text, and Anchor
+        dmc.Container(
+            size="xl",
+            # style={"padding": "0 20px", "backgroundColor": dmc.theme.DEFAULT_COLORS["blue"][6]},
+            children=[
+                dmc.Group(
+                    justify="space-arounds",  # Spreads items apart
+                    align="center",    # Vertically centers the items
+                    style={"height": "60px"},
+                    children=[
+                        
+                        dmc.Group(
+                            gap="md",
+                            children=[
+                                dmc.Anchor(
+                                    dmc.Image(
                                     src="assets/icon/alpen_consulting_white.png",
-                                    style={"width": "60%"}
-                                ),
-                                dmc.Text([contruction_icon,"Under Construction"], c="grey")
-                            ],align="center",
-                            )
-                        ],
-                    ),
-                ]
-            )
-        ])
-
-   
+                                    style={"width": "130px"}
+                                ), 
+                                href="/"),
+                                dmc.Anchor("Why?", href="/about", className="anchor-link"),
+                                dmc.Anchor("Contact", href="/contact", className="anchor-link"),
+                            ],
+                        ),
+                    ],
+                )
+            ],
+        ),
+        dash.page_container
+    ])

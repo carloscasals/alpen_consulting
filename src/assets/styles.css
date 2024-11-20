@@ -1,0 +1,11 @@
+/* styles.css */
+.anchor-link {
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.anchor-link:hover {
+    color: grey;
+    text-decoration: none;
+}
