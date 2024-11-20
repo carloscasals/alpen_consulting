@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: apen_consultion_hiqu
+    name: alpen_consulting
     env: python
     plan: free
     buildCommand: "pip install -r requirements.txt"
