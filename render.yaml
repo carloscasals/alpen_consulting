@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: alpen_consulting_1
+    name: alpen_consulting
     env: python
     plan: free
     region: frankfurt
