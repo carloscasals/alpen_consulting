@@ -31,7 +31,6 @@ def create_layout() -> dmc.MantineProvider:
                     ),
                 ]
             )
-            
         ])
 
    
