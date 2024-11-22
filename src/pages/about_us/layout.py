@@ -53,7 +53,7 @@ def create_layout() -> dmc.MantineProvider:
                                         gutter=8,
                                         children=[
                                             dmc.GridCol(span=4,children=[
-                                                    dmc.Image(src="https://media.licdn.com/dms/image/v2/C4E03AQE6dU65Ksm0sg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_100_100/0/1522928485317?e=1737590400&v=beta&t=PP986H8_zKD0WaC5vybMKOYDhkHh-orEPgtUeC28uZg",
+                                                    dmc.Image(src="https://media.licdn.com/dms/image/v2/C4E03AQE6dU65Ksm0sg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1522928486611?e=1737590400&v=beta&t=D1UgkwtMumXLaUBz4AEsZW4_a28jGg_ztyIzDDHDr54",
                                                     h=160,
                                                     alt="Norway",
                                                 ),    
