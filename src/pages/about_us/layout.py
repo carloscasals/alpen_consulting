@@ -25,8 +25,7 @@ def create_layout() -> dmc.MantineProvider:
                                     html.H3("A team of passionate consultants and industry experts",style={"marginTop":5})
                                 ])),
                             dmc.GridCol(
-                                xs=12,
-                                md=4,
+                                span="auto",
                                 children=[
                                     # 1st consultant
                                     dmc.Grid(
@@ -47,8 +46,7 @@ def create_layout() -> dmc.MantineProvider:
                                 ]
                             ),
                             dmc.GridCol(
-                                xs=12,
-                                md=4,
+                                span="auto",
                                 children=[
                                     # 2nd consultant
                                     dmc.Grid(
