@@ -32,7 +32,7 @@ def create_layout() -> dmc.MantineProvider:
                                         gutter=8,
                                         children=[
                                             dmc.GridCol(span=4,children=[
-                                                    dmc.Image(src="https://media.licdn.com/dms/image/v2/C5603AQHESZBGoc7QNQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1584210187244?e=1737590400&v=beta&t=-MBk3g9CTyAG1B51bHlZjZ3D5FBe58jymT4PU8K5dzY",
+                                                    dmc.Image(src="https://media.licdn.com/dms/image/v2/C5603AQHESZBGoc7QNQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1584210187270?e=1737590400&v=beta&t=uxLPxg0DHctF9hK2TQ24l6foWq1Qh154I3DSgzT9MIM",
                                                     h=160,
                                                     alt="Norway",
                                                 ),    
@@ -53,7 +53,7 @@ def create_layout() -> dmc.MantineProvider:
                                         gutter=8,
                                         children=[
                                             dmc.GridCol(span=4,children=[
-                                                    dmc.Image(src="https://media.licdn.com/dms/image/v2/C4E03AQE6dU65Ksm0sg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1522928485317?e=1737590400&v=beta&t=PP986H8_zKD0WaC5vybMKOYDhkHh-orEPgtUeC28uZg",
+                                                    dmc.Image(src="https://media.licdn.com/dms/image/v2/C4E03AQE6dU65Ksm0sg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_100_100/0/1522928485317?e=1737590400&v=beta&t=PP986H8_zKD0WaC5vybMKOYDhkHh-orEPgtUeC28uZg",
                                                     h=160,
                                                     alt="Norway",
                                                 ),    
