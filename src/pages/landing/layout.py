@@ -5,10 +5,7 @@ from datetime import datetime, timedelta, date
 from dash_iconify import DashIconify
 
 
-
-
 contruction_icon = DashIconify(icon="lucide:construction", style={"marginRight": 5})
-
 
 def create_layout() -> dmc.MantineProvider:
     return dmc.MantineProvider(
@@ -33,10 +30,9 @@ def create_layout() -> dmc.MantineProvider:
             )
         ])
 
-   
+
 dash.register_page(
     __name__,
     path="/",
-    # title="Carrier Analysis",
-    layout=create_layout(),
+    layout=create_layout,
 )
