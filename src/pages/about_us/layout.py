@@ -38,7 +38,7 @@ def create_layout() -> dmc.MantineProvider:
                                                 ),    
                                             ]),
                                             dmc.GridCol(span=8,children=[
-                                                    dmc.Text(["César Ferrer", linkedin_icon], fw=500, size="lg", c="blue"),
+                                                    dmc.Text(["César Ferrer", html.A(linkedin_icon,href="https://www.linkedin.com/in/c%C3%A9sar-ferrer/")], fw=500, size="lg", c="blue"),
                                                     dmc.Text("Managing Partner", fw=700),
                                                     dmc.Text("Strategy and management consultant with almost 20 years in operations helping PE, investement funds and family-owned clients at McKinsey & Accenture", size="sm",),  
                                             ])
@@ -59,7 +59,7 @@ def create_layout() -> dmc.MantineProvider:
                                                 ),    
                                             ]),
                                             dmc.GridCol(span=8,children=[
-                                                    dmc.Text(["Marta Serradell", linkedin_icon], fw=500, size="lg", c="blue"),
+                                                    dmc.Text(["Marta Serradell", html.A(linkedin_icon,href="https://www.linkedin.com/in/marta-serradell-bustamante/")], fw=500, size="lg", c="blue"),
                                                     dmc.Text("Senior Advisor - Finance", fw=700),
                                                     dmc.Text("Finance executive and consultant with +10 years of experience in the educational sector (schools, universities and language)", size="sm",),  
                                             ])
