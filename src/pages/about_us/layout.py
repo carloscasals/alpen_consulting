@@ -33,7 +33,7 @@ def create_layout() -> dmc.MantineProvider:
                                     dmc.GridCol(span=8,children=[
                                             dmc.Text(["César Ferrer", html.A(linkedin_icon,href="https://www.linkedin.com/in/c%C3%A9sar-ferrer/")], fw=500, size="lg", c="blue"),
                                             dmc.Text("Managing Partner", fw=700),
-                                            dmc.Text("Strategy and management consultant with almost 20 years in operations helping PE, investement funds and family-owned clients at McKinsey & Accenture", size="sm",),  
+                                            dmc.Text("Strategy and management consultant with almost 20 years in operations helping PE, investment funds and family-owned clients at McKinsey & Accenture", size="sm",),  
                                     ])
                             ]),
                             dmc.Grid(

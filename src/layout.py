@@ -25,9 +25,9 @@ def create_layout():
                                     style={"width": "130px"}
                                 ), 
                                 href="/"),
-                                dmc.Anchor("Why?", href="/why", className="anchor-link"),
+                                # dmc.Anchor("Why?", href="/why", className="anchor-link"),
                                 dmc.Anchor("About us", href="/about_us", className="anchor-link"),
-                                dmc.Anchor("Contact", href="/contact", className="anchor-link"),
+                                # dmc.Anchor("Contact", href="/contact", className="anchor-link"),
                             ],
                         ),
                     ],
