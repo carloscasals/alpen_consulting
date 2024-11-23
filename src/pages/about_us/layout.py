@@ -17,6 +17,9 @@ def create_layout() -> dmc.MantineProvider:
                 size='xl',
                 style={"height": "100vh"},  # Set full height of the viewport
                 children=[
+                    dmc.Text("About us:", size="xl", fw=700),
+                    dmc.Text("A team of passionate consultants and industry experts", size="lg", fw=500),
+                    dmc.Space(h=30),
                     dmc.SimpleGrid(
                         cols={"base": 1, "sm": 2, "lg": 3},
                         spacing="sm",
