@@ -21,7 +21,8 @@ def create_layout() -> dmc.MantineProvider:
                                     src="assets/icon/alpen_consulting_white.png",
                                     style={"width": "60%"}
                                 ),
-                                dmc.Text([contruction_icon,"Under Construction"], c="grey")
+                                dmc.Text([contruction_icon,"Under Construction"], c="grey"),
+                                dmc.Text("Hola cesar", c="grey")
                             ],align="center",
                             )
                         ],

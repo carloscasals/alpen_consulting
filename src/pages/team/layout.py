@@ -63,7 +63,7 @@ def create_layout() -> dmc.MantineProvider:
 
 dash.register_page(
     __name__,
-    path="/about_us",
+    path="/team",
     layout=create_layout,
 )
 
