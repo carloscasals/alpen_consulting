@@ -21,9 +21,9 @@ def create_layout() -> dmc.MantineProvider:
                                     src="assets/icon/alpen_consulting_white.png",
                                     style={"width": "60%"}
                                 ),
-                                dmc.Text("We invistion to become our client's partner when it comes to problem-solve their toughest challenges, and joinly find the best ways to maximize the value to shareholders and customers.",
+                                dmc.Text("We envision to become our client's partner when it comes to problem-solve their toughest challenges, and joinly find the best ways to maximize the value to shareholders and customers.",
                                         size="xl",
-                                        style={"width":"60%"}
+                                        style={"width":"60%","textAlign":"center"}
                                 ),
                             ],align="center",
                             )

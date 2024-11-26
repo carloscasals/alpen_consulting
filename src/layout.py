@@ -30,7 +30,6 @@ def create_layout():
                                 dmc.Anchor("Approach", href="/approach", className="anchor-link"),
                                 dmc.Anchor("Team", href="/team", className="anchor-link"),
                                 dmc.Anchor("Contact", href="/contact", className="anchor-link"),
-                                # dmc.Anchor("Contact", href="/contact", className="anchor-link"),
                             ],
                         ),
                     ],
