@@ -9,3 +9,23 @@
     color: grey;
     text-decoration: none;
 }
+
+
+/* CSS for responsive behavior */
+@media (min-width: 768px) {
+    #burger-container {
+        display: none !important; /* Hide burger on desktop */
+    }
+    #desktop-menu {
+        display: flex !important; /* Show desktop menu */
+    }
+}
+
+@media (max-width: 768px) {
+    #burger-container {
+        display: block !important; /* Show burger on mobile */
+    }
+    #desktop-menu {
+        display: none !important; /* Hide desktop menu */
+    }
+}
